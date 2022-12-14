@@ -5,3 +5,18 @@ import playersJson from "./Players.json";
 const players: PlayerUnity[] = playersJson as PlayerUnity[];
 
 export const getPlayers = (): PlayerUnity[] => players;
+
+export const getPlayersWithoutTeam = (): NoVisibilityPlayerTeam[] => {
+  return players.map(({ id, name, dorso, number, country, position }) => {
+    return {
+      id,
+      name,
+      dorso,
+      number,
+      country,
+      position,
+    };
+  });
+};
+
+export const getPlayerId = () => {};
