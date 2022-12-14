@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Lionel Andrés Messi Cuccittini",
+        "dorso": "Messi",
+        "number": 10,
+        "country": "Argentina",
+        "position": "Delantero",
+        "team": "París Saint-Germain"
+    },
+    {
+        "id": 2,
+        "name": "Cristiano Ronaldo dos Santos Aveiro",
+        "dorso": "Ronaldo",
+        "number": 7,
+        "country": "Portugal",
+        "position": "Delantero",
+        "team": "Manchester United"
+    },
+    {
+        "id": 3,
+        "name": "Neymar da Silva Santos Júnior",
+        "dorso": "Neymar",
+        "number": 10,
+        "country": "Brasil",
+        "position": "Delantero",
+        "team": "París Saint-Germain"
+    },
+    {
+        "id": 4,
+        "name": "Diego Armando Maradona",
+        "dorso": "Maradona",
+        "number": 10,
+        "country": "Argentina",
+        "position": "Centrocampista",
+        "team": "Boca Juniors"
+    },
+    {
+        "id": 5,
+        "name": "Sergio Leonel Agüero del Castillo",
+        "dorso": "Kun Aguero",
+        "number": 9,
+        "country": "Argentina",
+        "position": "Delantero",
+        "team": "Barcelona"
+    }
+]
