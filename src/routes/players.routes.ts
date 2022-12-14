@@ -10,10 +10,10 @@ router.get("/", (_req, res) => {
 
 router.get("/notTeam", (_req, res) => {
   const playersNotTeams = playerServices.getPlayersWithoutTeam();
-    res.status(200).json({
-      msg: "Información sin su equipo deportivo",
-      playersNotTeams,
-    });
+  res.status(200).json({
+    msg: "Información sin su equipo deportivo",
+    playersNotTeams,
+  });
 });
 
 router.get("/:id", (req, res) => {
@@ -23,6 +23,13 @@ router.get("/:id", (req, res) => {
     : res.status(404).send({ msg: "Jugador inexistente" });
 });
 
-router.post("/", (req, res) => {});
+router.post("/", (req, res) => {
+  const newPlayer = toNewPlayer(req.body);
+  const createdPlayer = playerServices.addPlayer(newPlayer);
+  res.status(201).json({
+    msg: `¡El jugador ${newPlayer.dorso} se ha subido con éxito!`,
+    createdPlayer,
+  });
+});
 
 export default router;

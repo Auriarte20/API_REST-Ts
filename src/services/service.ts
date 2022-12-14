@@ -26,3 +26,13 @@ export const getPlayerId = (id: number): NoVisibilityPlayerTeam | undefined => {
     return restOfPlayer;
   }
 };
+
+export const addPlayer = (newPlayerData: NewPlayerData): PlayerUnity => {
+  const newPlayer = {
+    id: players.length + 1, // o Math.max(...players.map((p) => p.id)) + 1,
+    ...newPlayerData,
+  };
+
+  players.push(newPlayer);
+  return newPlayer;
+};
