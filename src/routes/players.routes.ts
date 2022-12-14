@@ -1,6 +1,5 @@
 import { Router } from "express";
 import * as playerServices from "../services/service";
-import toNewPlayer from "../utils/utils";
 
 const router = Router();
 
@@ -9,7 +8,13 @@ router.get("/", (_req, res) => {
   res.send(allPlayers);
 });
 
-router.get("/notTeam", (_req, res) => {});
+router.get("/notTeam", (_req, res) => {
+  const playersNotTeams = playerServices.getPlayersWithoutTeam();
+    res.status(200).json({
+      msg: "Información sin su equipo deportivo",
+      playersNotTeams,
+    });
+});
 
 router.get("/:id", (req, res) => {
   const player = playerServices.getPlayerId(Number(req.params.id));

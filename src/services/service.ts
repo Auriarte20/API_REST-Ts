@@ -19,4 +19,10 @@ export const getPlayersWithoutTeam = (): NoVisibilityPlayerTeam[] => {
   });
 };
 
-export const getPlayerId = () => {};
+export const getPlayerId = (id: number): NoVisibilityPlayerTeam | undefined => {
+  const player = players.find((p) => p.id === id);
+  if (player) {
+    const { team, ...restOfPlayer } = player;
+    return restOfPlayer;
+  }
+};
