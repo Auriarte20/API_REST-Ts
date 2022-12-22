@@ -1,4 +1,8 @@
-import { PlayerUnity, NoVisibilityPlayerTeam, NewPlayerData } from "../types";
+import {
+  PlayerUnity,
+  NoVisibilityPlayerCountry,
+  NewPlayerData,
+} from "../types";
 import playersJson from "./Players.json";
 
 // PlayerUnity[] o Array<PlayerUnity> manera de instaciar la interface (ej: modelo)
@@ -6,23 +10,28 @@ const players: PlayerUnity[] = playersJson as PlayerUnity[];
 
 export const getPlayers = (): PlayerUnity[] => players;
 
-export const getPlayersWithoutTeam = (): NoVisibilityPlayerTeam[] => {
-  return players.map(({ id, name, dorso, number, country, position }) => {
-    return {
-      id,
-      name,
-      dorso,
-      number,
-      country,
-      position,
-    };
-  });
+export const getPlayersWithoutTeam = (): NoVisibilityPlayerCountry[] => {
+  return players.map(
+    ({ id, fullName, age, name, dorsal, country, position }) => {
+      return {
+        id,
+        fullName,
+        age,
+        name,
+        dorsal,
+        country,
+        position,
+      };
+    }
+  );
 };
 
-export const getPlayerId = (id: number): NoVisibilityPlayerTeam | undefined => {
+export const getPlayerId = (
+  id: number
+): NoVisibilityPlayerCountry | undefined => {
   const player = players.find((p) => p.id === id);
   if (player) {
-    const { team, ...restOfPlayer } = player;
+    const { country, ...restOfPlayer } = player;
     return restOfPlayer;
   }
 };

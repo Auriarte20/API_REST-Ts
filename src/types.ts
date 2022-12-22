@@ -1,25 +1,24 @@
 // enum es una clase especial para declarar constantes (variables inalcanzables)
 export enum Position {
-  Portero = "portero",
-  Defensa = "defensa",
-  Centrocampista = "centrocampista",
-  Delantero = "delantero",
+  Portero = "Arquero",
+  Defensa = "Defensa",
+  Centrocampista = "Centrocampista",
+  Delantero = "Delantero",
 }
-
 
 // interface, lo entedí como crear unas instancia de objeto con los datos que quiero que guarde (tipo sequelize y sus comlumnas)
 export interface PlayerUnity {
   id: number;
+  fullName: string;
+  age: number;
   name: string;
-  dorso: string;
-  number: number;
-  country: string;
+  dorsal: number;
   position: Position;
-  team: string;
+  country: string;
 }
 
 // Crear 'interfaz' sin alguna propiedad con "Omit<Type, Keys>":
-export type NoVisibilityPlayerTeam = Omit<PlayerUnity, "team">;
+export type NoVisibilityPlayerCountry = Omit<PlayerUnity, "country">;
 
 export type NewPlayerData = Omit<PlayerUnity, "id">;
 

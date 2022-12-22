@@ -44,7 +44,7 @@ router.post("/", (req, res) => {
     const newPlayer = toNewPlayer(req.body);
     const createdPlayer = playerServices.addPlayer(newPlayer);
     res.status(201).json({
-      msg: `¡El jugador ${newPlayer.dorso} se ha subido con éxito!`,
+      msg: `¡El jugador ${newPlayer.name} se ha subido con éxito!`,
       createdPlayer,
     });
   } catch (error: any) {

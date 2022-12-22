@@ -1,47 +1,92 @@
 [
-    {
-        "id": 1,
-        "name": "Lionel Andrés Messi Cuccittini",
-        "dorso": "Messi",
-        "number": 10,
-        "country": "Argentina",
-        "position": "Delantero",
-        "team": "París Saint-Germain"
-    },
-    {
-        "id": 2,
-        "name": "Cristiano Ronaldo dos Santos Aveiro",
-        "dorso": "Ronaldo",
-        "number": 7,
-        "country": "Portugal",
-        "position": "Delantero",
-        "team": "Manchester United"
-    },
-    {
-        "id": 3,
-        "name": "Neymar da Silva Santos Júnior",
-        "dorso": "Neymar",
-        "number": 10,
-        "country": "Brasil",
-        "position": "Delantero",
-        "team": "París Saint-Germain"
-    },
-    {
-        "id": 4,
-        "name": "Diego Armando Maradona",
-        "dorso": "Maradona",
-        "number": 10,
-        "country": "Argentina",
-        "position": "Centrocampista",
-        "team": "Boca Juniors"
-    },
-    {
-        "id": 5,
-        "name": "Sergio Leonel Agüero del Castillo",
-        "dorso": "Kun Aguero",
-        "number": 9,
-        "country": "Argentina",
-        "position": "Delantero",
-        "team": "Barcelona"
-    }
+  {
+    "id": 1,
+    "fullName": "Lionel Andrés Messi Cuccittini",
+    "age": 35,
+    "name": "Messi",
+    "dorsal": 10,
+    "position": "Delantero",
+    "country": "Argentina"
+  },
+  {
+    "id": 2,
+    "fullName": "Cristiano Ronaldo dos Santos Aveiro",
+    "age": 37,
+    "name": "Ronaldo",
+    "dorsal": 7,
+    "position": "Delantero",
+    "country": "Portugal"
+  },
+  {
+    "id": 3,
+    "fullName": "Neymar da Silva Santos Júnior",
+    "age": 30,
+    "name": "Neymar",
+    "dorsal": 10,
+    "position": "Delantero",
+    "country": "Brasil"
+  },
+  {
+    "id": 4,
+    "fullName": "Sergio Leonel Agüero del Castillo",
+    "age": 34,
+    "name": "Kun Aguero",
+    "dorsal": 9,
+    "position": "Delantero",
+    "country": "Argentina"
+  },
+  {
+    "id": 5,
+    "fullName": "Ángel Fabián Di María",
+    "age": 34,
+    "name": "Di María",
+    "dorsal": 11,
+    "position": "Centrocampista",
+    "country": "Argentina"
+  },
+  {
+    "id": 6,
+    "fullName": "Paulo Exequiel Dybala",
+    "age": 29,
+    "name": "Dybala",
+    "dorsal": 21,
+    "position": "Delantero",
+    "country": "Argentina"
+  },
+  {
+    "id": 7,
+    "fullName": "Damián Emiliano Martínez",
+    "age": 30,
+    "name": "Martínez",
+    "dorsal": 23,
+    "position": "Arquero",
+    "country": "Argentina"
+  },
+  {
+    "id": 8,
+    "fullName": "Pedro González López",
+    "age": 20,
+    "name": "Pedri",
+    "dorsal": 26,
+    "position": "Centrocampista",
+    "country": "España"
+  },
+  {
+    "id": 9,
+    "fullName": "Pablo Martín Páez Gavira",
+    "age": 18,
+    "name": "Gavi",
+    "dorsal": 9,
+    "position": "Centrocampista",
+    "country": "España"
+  },
+  {
+    "id": 10,
+    "fullName": "Gianluca Lapadula Vargas",
+    "age": 32,
+    "name": "Lapadula",
+    "dorsal": 9,
+    "position": "Delantero",
+    "country": "Perú"
+  }
 ]
