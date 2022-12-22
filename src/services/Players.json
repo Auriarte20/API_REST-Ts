@@ -5,7 +5,7 @@
     "age": 35,
     "name": "Messi",
     "dorsal": 10,
-    "position": "Delantero",
+    "position": "delantero",
     "country": "Argentina"
   },
   {
@@ -14,7 +14,7 @@
     "age": 37,
     "name": "Ronaldo",
     "dorsal": 7,
-    "position": "Delantero",
+    "position": "delantero",
     "country": "Portugal"
   },
   {
@@ -23,7 +23,7 @@
     "age": 30,
     "name": "Neymar",
     "dorsal": 10,
-    "position": "Delantero",
+    "position": "delantero",
     "country": "Brasil"
   },
   {
@@ -32,7 +32,7 @@
     "age": 34,
     "name": "Kun Aguero",
     "dorsal": 9,
-    "position": "Delantero",
+    "position": "delantero",
     "country": "Argentina"
   },
   {
@@ -41,7 +41,7 @@
     "age": 34,
     "name": "Di María",
     "dorsal": 11,
-    "position": "Centrocampista",
+    "position": "centrocampista",
     "country": "Argentina"
   },
   {
@@ -50,7 +50,7 @@
     "age": 29,
     "name": "Dybala",
     "dorsal": 21,
-    "position": "Delantero",
+    "position": "delantero",
     "country": "Argentina"
   },
   {
@@ -59,7 +59,7 @@
     "age": 30,
     "name": "Martínez",
     "dorsal": 23,
-    "position": "Arquero",
+    "position": "arquero",
     "country": "Argentina"
   },
   {
@@ -68,7 +68,7 @@
     "age": 20,
     "name": "Pedri",
     "dorsal": 26,
-    "position": "Centrocampista",
+    "position": "centrocampista",
     "country": "España"
   },
   {
@@ -77,7 +77,7 @@
     "age": 18,
     "name": "Gavi",
     "dorsal": 9,
-    "position": "Centrocampista",
+    "position": "centrocampista",
     "country": "España"
   },
   {
@@ -86,7 +86,7 @@
     "age": 32,
     "name": "Lapadula",
     "dorsal": 9,
-    "position": "Delantero",
+    "position": "delantero",
     "country": "Perú"
   }
 ]
